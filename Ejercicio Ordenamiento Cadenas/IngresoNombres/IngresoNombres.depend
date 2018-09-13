@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1536629704 source:c:\users\sanro\onedrive\escritorio\ingresonombres\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1536669330 source:c:\users\alumno\desktop\rouaux\strings\ingresonombres\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
