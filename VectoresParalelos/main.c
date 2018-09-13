@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define T 2
+#include <ctype.h>
+#define T 5
 
 void cargarAlumnos(int[], char[][21], int[], float[], int);
 void mostrarAlumnos(int[], char[][21], int[], float[], int);
@@ -70,10 +71,27 @@ int main()
 void ordenarNombres(char nombres[][21], int tamano)
 {
     int i;
-    for(i = 0; i < tamano; i++)
+    int j;
+    char aux[21];
+
+    /*for(i = 0; i < tamano; i++)
     {
         strlwr(nombres[i]);
+    }*/
+
+    for(i = 0; i < tamano -1; i++)
+    {
+        for(j = i+1; j < tamano; j++)
+        {
+            if(tolower(nombres[j][0]) < tolower(nombres[i][0]))
+            {
+                    strcpy(aux, nombres[j]);
+                    strcpy(nombres[j], nombres[i]);
+                    strcpy(nombres[i], aux);
+            }
+        }
     }
+
 
     for(i = 0; i < tamano; i++)
     {
