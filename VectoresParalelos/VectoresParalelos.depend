@@ -8,8 +8,14 @@
 	<stdlib.h>
 	<string.h>
 
-1536864219 source:c:\users\sanro\onedrive\escritorio\trabajo\11-9-18\vectoresparalelos\main.c
+1536872028 source:c:\users\sanro\onedrive\escritorio\trabajo\11-9-18\vectoresparalelos\main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
+	<ctype.h>
+	"biblio.h"
+
+1536871215 c:\users\sanro\onedrive\escritorio\trabajo\11-9-18\vectoresparalelos\biblioteca.h
+
+1536872028 c:\users\sanro\onedrive\escritorio\trabajo\11-9-18\vectoresparalelos\biblio.h
 
